@@ -30,7 +30,7 @@ const Navbar = () => {
 
             {/* All Product */}
             <li>
-                <Link to={'/allproduct'}>All Products</Link>
+                <Link to={'/allproduct'}>Browse</Link>
             </li>
 
             {/* Signup */}

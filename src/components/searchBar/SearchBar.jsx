@@ -10,7 +10,7 @@ const SearchBar = () => {
     const [search, setSearch] = useState("");
 
     // Filter Search Data
-    const filterSearchData = getAllProduct.filter((obj) => obj.title.toLowerCase().includes(search)).slice(0, 8)
+    const filterSearchData = getAllProduct.filter((obj) => obj.title.toLowerCase().includes(search.toLowerCase())).slice(0, 8);
 
     const navigate = useNavigate();
 
